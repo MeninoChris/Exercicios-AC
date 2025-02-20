@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Exercicio_10 {
+    public static void main (String[] args) {
+
+        // Exercicio 10
+        // Faça um algoritmo para imprimir:
+        // - o cálculo da área de um círculo com raio de 5 cm. (π = 3.14159)
+        // - área do círculo = π ˆ r2
+        Scanner entradaDados = new Scanner(System.in);
+
+        System.out.println("Bem vindo a calculadora de área de circulos, hoje iremos calcular a área de um circulo com um raio de 5 e com o valor de PI sendo: 3.14159");
+
+        double valorPI = 3.14159;
+        double raio = 5;
+        double raioQ = raio * raio;
+        System.out.println("");
+        System.out.println("O calculo será o seguinte: A = PI * R²");
+        System.out.println("Fazendo o calculo fica: A = " + valorPI + " * " + raio + " * " + raio);
+        System.out.println("A = " + valorPI + " * " + raioQ);
+        double area = valorPI * raioQ;
+        System.out.println("A = " + area);
+        System.out.println("A area de nosso circulo será de: A = " + area);
+        System.out.println("");
+    }
+}

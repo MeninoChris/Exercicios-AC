@@ -1,0 +1,27 @@
+public class Exercicio_6 {
+    public static void main (String[] args) {
+
+        // Exercicio 6
+        /*
+        Faça um algoritmo que calcule e imprima o valor de cada expressão a seguir:
+        – (20 - 15)/2
+        – 2 ˆ (5/20) + 30 / (15 ˆ 2)
+        – 35 / (6 + 2)
+        – 23 módulo 4
+         */
+        double calculo1 = (20 - 15) /2.0;
+        double calculo2 = (Math.pow(2, 5/20)) + 30.0 / (15.0 * 15.0); // Ou Math.pow(15, 2)
+        double calculo3 = 35.0 / (6.0 + 2.0);
+        double calculo4 = 23.0 % 4.0;
+
+        System.out.println("O calculo da expressão: '(20 - 15)/2' é: " + calculo1);
+        System.out.println("");
+        System.out.println("O calculo da expressão: '2 ^ (5/20) + 30 / (15 ^ 2)' é: " + calculo2);
+        System.out.println("");
+        System.out.println("O calculo da expressão: '35 / (6 + 2)' é: " + calculo3);
+        System.out.println("");
+        System.out.println("O calculo da expressão: '23 módulo 4' é: " + calculo4);
+        System.out.println("");
+    }
+
+}
