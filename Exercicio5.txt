@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Exercicios_ {
+    public static void main (String[] args) {
+
+        // Exercicio 5
+        // Faça um algoritmo que leia três notas de um aluno:
+        // – calcule e mostre a média aritmética do aluno.
+        Scanner entradaDados = new Scanner(System.in);
+
+        System.out.print("Vamos calcular sua media! Primeiro insira uma nota: ");
+        double nota1 = entradaDados.nextDouble();
+
+        System.out.print("Insira uma segunda nota: ");
+        double nota2 = entradaDados.nextDouble();
+
+        System.out.print("Insira uma terceira nota: ");
+        double nota3 = entradaDados.nextDouble();
+
+        double mediaNota = (nota1 + nota2 + nota3) / 3;
+
+        System.out.println("");
+        System.out.println("Sua media final foi: " + mediaNota);
+        System.out.println("");
+
+        entradaDados.close();
+    }
+
+}

@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Exercicios {
+    public static void main(String[] args){
+
+        // Exercicio 4
+        // Faça um algoritmo que leia quatro números inteiros.
+        // – calcule e mostre a soma desses números.
+
+    Scanner entradaDados = new Scanner(System.in);
+
+    System.out.println("Insira um numero inteiro: ");
+    int num1 = entradaDados.nextInt();
+
+    System.out.println("Insira um segundo numero inteiro: ");
+    int num2 = entradaDados.nextInt();
+
+    System.out.println("Insira um segundo numero inteiro: ");
+    int num3 = entradaDados.nextInt();
+
+    System.out.println("Insira um segundo numero inteiro: ");
+    int num4 = entradaDados.nextInt();
+
+    int somaInt = num1 + num2 + num3 + num4;
+
+    System.out.println("A soma dos numeros que você colocou foi: " + somaInt);
+    
+    entradaDados.close();
+    }
+    
+}
+

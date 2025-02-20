@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Exercicios {
+    public static void main(String[] args){
+
+        // Exercicio 3
+        // Construir um algoritmo para ler dois números inteiros:
+        // – e imprimir o seu produto.
+        
+    Scanner entradaDados = new Scanner(System.in);
+
+    System.out.println("Insira um numero inteiro: ");
+    int num1 = entradaDados.nextInt();
+
+    System.out.println("Insira um segundo numero inteiro: ");
+    int num2 = entradaDados.nextInt();
+
+    int produtoNumeros = num1 * num2;
+
+    System.out.println("Os numeros que você colocou foi: " + num1 + " e " + num2 + ", então seu produto é: " + produtoNumeros);
+    
+    entradaDados.close();
+    }
+    
+}
+
